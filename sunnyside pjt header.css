@@ -1,0 +1,85 @@
+/* for centering content within 1440px */
+
+.row{
+    max-width: 144rem;
+    margin: 0 auto;
+}
+    
+/* header section starts */
+
+.header{
+    background-image:url(/images/desktop/image-header.jpg);
+    background-size: cover;
+    background position: center;
+    height: 100vh;
+    position: relative
+}
+
+.header_arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate{-50%,-50%} 
+}
+.nav{
+    padding-top: 3 rem;
+}
+.nav_flex{
+    display: flex;
+    align-items: center;}
+
+ .nav_logo{
+     margin-right:auto ;
+ }  
+ .nav_list{
+     list-style:none;}
+
+ .nav_list{
+     text-decoration:none;
+     color:white;
+     font-size:1.5rem;
+ }
+ .nav_item{
+     display: inline-block;
+     padding: 0 2rem;
+     text-decoration: none;
+
+ }
+ 
+ .nav_link{
+     text-decoration:none ;
+     color:#fff;
+     font-size:1.5rem;
+ }
+
+ .btn{
+     border:none;
+     outline:none;
+     cursor: pointer;
+     background-color: transparent;
+    }
+ .btn_white{
+     padding:1.5rem 2.5rem;
+     background-color: #fff;
+     color:black;
+     border-radius:10rem;
+     font-family:"Fraunces",sans-serif;
+     font-weight:900 ;
+
+ }
+ .heading{
+     position: absolute;
+     top:30%;
+     left:50%;
+     transform: translate(-50% ,-50%);
+     font-size:18px ;
+     color:#fff;
+     font-family:"Fraunces",sans-serif ;
+     letter-spacing: 1.1rem;
+     font-weight: 900;
+ }
+/* header section ends */
+
+
+ 
+  
