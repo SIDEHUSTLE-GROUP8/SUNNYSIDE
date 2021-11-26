@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <script src="https://kit.fontawesome.com/a54a19dd1e.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="./style.css">
+   <style>
+
+    </style>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="">
+  <div class="overflow-y-hidden font-myfont">
+             <!--NAV BAR-->
+    <div class="bg-center bg-cover h-96 md:h-96 md:w-full md:relative bg-hero ">
+      <nav>
+        <div class="flex items-center justify-between text-center">
+          <img class="pt-8 pl-5 md:pl-10" src="images/logo.svg" alt="">
+          <div class="flex justify-end px-5 pt-8 text-white cursor-pointer md:hidden" id="burger"><i class="fas fa-bars"></i></div>
+        </div>
+        <ul id="menu" class="items-center justify-end hidden pr-10 text-xl text-center text-white md:flex md:absolute top-6 ml-96 right-10 left-96 font-barlow">
+          <li class="px-4 cursor-pointer">About</li>
+          <li class="px-4 cursor-pointer">Services</li>
+          <li class="px-4 cursor-pointer">Projects</li>
+          <li class="px-4 py-1 text-center text-black bg-white rounded-full cursor-pointer hover:bg-blue-400 hover:text-white">Contact</li>
+        </ul>
+      </nav>
+      <div class="flex justify-center pt-5 pb-2 text-4xl font-bold leading-snug text-center text-white uppercase md:pt-10 md:text-4xl font-femi">We are creatives</div>
+      <div class="flex justify-center pb-96">
+        <img class="h-36" src="images/icon-arrow-down.svg" alt="">
+      </div>
+    </div>
+    <div class="flex flex-col grid-cols-2 md:grid">
+      <div class="order-2 w-full text-center md:order-1 h-96">
+        <h4 class="px-10 pt-8 pb-5 text-3xl md:pt-20 font-femi">Transform your brand</h4>
+        <p class="px-10 pt-5 text-xl font-normal text-gray-500 font-myfont">We are full-service creative agency specializing in helping brands  grow fast. Engage your clients through compelling visuals  that do most of the marketing for you. </p>
+        <div class="pt-10"><a class="px-2 py-1 bg-yellow-200 rounded-xl" href="">LEARN MORE</a> </div>
+      </div>
+      <div class="order-1 w-full h-96">
+        <img class="object-cover w-full sm:order-1 h-96" src="images/desktop/image-transform.jpg" alt="">
+      </div>
+      <div class="order-3 w-full h-96">
+        <img class="object-cover w-full h-96" src="images/desktop/image-stand-out.jpg" alt="">
+      </div>
+      <div class="order-4 w-full text-center h-96">
+        <h4 class="px-10 pt-8 pb-5 text-2xl md:pt-20 font-femi">Stand out to the right audience</h4>
+        <p class="px-10 pt-5 text-xl font-normal text-gray-500 font-myfont ">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places. </p>
+        <div class="pt-10"><a class="px-2 py-1 bg-pink-200 rounded-xl" href="">LEARN MORE</a> </div>
+      </div>
+      <div class="order-5 w-full h-full text-center text-green-700 bg-center bg-no-repeat bg-cover md:h-96 bg-berry">
+        <h3 class="pt-56 pb-3 text-2xl text-green-800 font-femi">Graphic Design</h3>
+        <p class="pb-10">Great design makes you memorable. We <br> deliver artwork that underscores your brand <br> message and captures potential client's <br> attention.</p>
+      </div>
+      <div class="order-6 w-full h-full text-center text-blue-700 bg-center bg-no-repeat bg-cover md:h-96 bg-orange">
+        <h5 class="pt-56 pb-6 text-2xl font-femi" >
+          Photography
+        </h5>
+        <p class="pb-10">Increase your credibility by getting the most <br> stunning, high-quality photos that improves <br> your business image.</p>
+      </div>
+    </div>
+    <div class="h-full pt-5 md:h-96 md:w-full md:my-16">
+      <h4 class="text-center text-gray-300 font-femi">CLIENT TESTIMONIALS</h4>
+      <div class="w-auto px-5 space-y-16 font-sans font-semibold text-center md:justify-between md:flex">
+        <div class="pt-16 text-center ">
+          <img class="mx-auto rounded-full h-11" src="images/image-emily.jpg" alt="">
+          <p class="pt-8 text-xl text-gray-600">We put our trust in Sunnyside and they <br>  delivered, making sure our needs were met <br> and deadline were always hit.</p>
+          <span>
+            <h5 class="py-5 font-extrabold font-femi">Emily R.</h5>
+            <p class="text-gray-400 font-myfont">Marketing Director</p>
+          </span>
+        </div>
+        <div class="text-center">
+          <img class="items-center mx-auto rounded-full h-11 " src="images/image-thomas.jpg" alt="">
+          <p class="pt-8 text-xl text-gray-600">Sunnyside's enthusiasm coupled with their <br> keen interest in our brand's success made it <br> a satisfying and enjoyable experience.</p>
+          <span>
+            <h5 class="py-5 font-extrabold font-femi">Thomas S.</h5>
+            <p class="text-gray-400 font-myfont">Chief Operating Officer</p>
+          </span>
+        </div>
+        <div class="pb-20 text-center md:w-80">
+          <img class="mx-auto rounded-full h-11" src="images/image-jennie.jpg" alt="">
+          <p class="pt-8 text-xl text-gray-600">incredible end result! Our sales increased  over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <span>
+            <h5 class="py-5 font-extrabold font-femi" >Jennie F.</h5>
+            <p class="text-gray-400 font-myfont">Business Owner</p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 md:flex">
+      <img class="md:w-1/4" src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+      <img class="md:w-1/4" src="images/desktop/image-gallery-orange.jpg" alt="">
+      <img class="md:w-1/4" src="images/desktop/image-gallery-cone.jpg" alt="">
+      <img class="md:w-1/4" src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </div>
+    <div class="w-full text-center bg-green-200 ">
+      <h3 class="pb-10 text-3xl font-extrabold tracking-tight text-green-700 pt-14 font-myfont">sunnyside</h3>
+      <ul class="flex justify-center text-green-500 cursor-pointer pb-14">
+        <li class="pr-4">About</li>
+        <li class="px-4 hover:text-white">Services</li>
+        <li class="pl-4">Projects</li>
+      </ul>
+      <span class="flex justify-center text-green-700 cursor-pointer pb-14">
+        <i class="pr-3 fab fa-facebook-square"></i>
+        <i class="px-3 fab fa-instagram"></i>
+        <i class="px-3 hover:text-white fab fa-twitter"></i>
+        <i class="pl-3 fab fa-pinterest"></i>
+      </span>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">GROUP8</a>.
+      </div>
+    </div>
+
+
+  </div>
+  <script src="../sunny.js"></script>
+
+</body>
+</html>
